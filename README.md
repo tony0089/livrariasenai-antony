@@ -1,2 +1,2 @@
 # livrariasenai
-atividade senai de fazer um site de 5 telas 
+atividade senai- fazer um site de 5 telas 
