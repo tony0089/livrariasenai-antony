@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livraria Senai - Catálogo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Livraria Senai</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="catalogo.html" class="ativo">Catálogo</a></li>
+        <li><a href="simulador.html">Simulador</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="sobre.html">Sobre e dúvidas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Catálogo de livros</h2>
+    <p>Escolha uma categoria para filtrar os livros.</p>
+
+    <section class="filtros">
+      <button class="botao filtro" data-categoria="todos">Todos</button>
+      <button class="botao filtro" data-categoria="Romance">Romance</button>
+      <button class="botao filtro" data-categoria="Fantasia">Fantasia</button>
+      <button class="botao filtro" data-categoria="Didático">Didático</button>
+      <button class="botao filtro" data-categoria="Tecnologia">Tecnologia</button>
+    </section>
+
+    <p id="contador" class="contador"></p>
+
+    <section id="lista-livros" class="lista-cards">
+      
+    </section>
+  </main>
+
+  <footer>
+     <p>Livraria Senai - Aluno: Antony Almir Guedes do Monte</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
