@@ -58,3 +58,4 @@ Versão para celular:
 ## Como abrir
 
 Baixe a pasta e abra o `index.html` no navegador.
+ou abra pelo git pages
